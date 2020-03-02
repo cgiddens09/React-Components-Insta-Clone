@@ -13,12 +13,13 @@ const App = () => {
 
   return (
     <div className="App">
-      
-      <PostsPage />
       <SearchBar />
+      <PostsPage />
+
       
     </div>
   );
 };
 
 export default App;
+// {CommentInput.map(item => <Comment comment = {item.comments} />)}
